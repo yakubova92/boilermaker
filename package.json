@@ -1,0 +1,36 @@
+{
+  "name": "boilermaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client/index.js",
+  "scripts": {
+    "start": "webpack -w --mode development & nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/polyfill": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-react": "^7.0.0-beta.40",
+    "@babel/preset-stage-2": "^7.0.0-beta.40",
+    "@babel/register": "^7.0.0-beta.40",
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.14"
+  }
+}

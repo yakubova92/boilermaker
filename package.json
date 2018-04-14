@@ -4,7 +4,7 @@
   "description": "",
   "main": "client/index.js",
   "scripts": {
-    "start": "webpack -w --mode development & nodemon server.js"
+    "start": "webpack -w --mode development & nodemon server/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -27,7 +27,7 @@
     "@babel/preset-react": "^7.0.0-beta.40",
     "@babel/preset-stage-2": "^7.0.0-beta.40",
     "@babel/register": "^7.0.0-beta.40",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^8.0.0-beta.2",
     "css-loader": "^0.28.11",
     "style-loader": "^0.20.3",
     "webpack": "^4.0.1",
